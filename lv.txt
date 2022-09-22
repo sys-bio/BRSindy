@@ -1,0 +1,11 @@
+
+// Lotka Volterra model
+
+// Reactions
+v1: S0 -> S0 + S0; 1.0*S0;
+v2: S1 + S0 -> S1 + S1; 0.01*S1*S0;
+v3: S1 -> ; 0.3*S1;
+
+// Initialization
+S0 = 100;
+S1 = 50;
